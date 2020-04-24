@@ -95,7 +95,7 @@ margin-top:8vh;
     #left{
         margin-left: 40px;
     }
-    .dropMenuIcon:focus #mobileNav {
+    .dropMenuIcon:active #mobileNav {
      display: flex;
      flex-direction: column;
     justify-content: center;
