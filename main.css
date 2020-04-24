@@ -46,17 +46,16 @@ main >div {
     flex-direction: row;
     width: 50vw;
     flex-wrap: wrap;
-
 }
 main > div {
     /* display: inline-block; */
 } 
-main > div >img{
-    /* float: left; */
+main div p{
+    /* max-height: 230px; */
 }
 main > div > div {
     /* display: inline-block; */
-    flex: 1;
+    flex: 1 ;
 
     /* float: left; */
 }
@@ -64,8 +63,8 @@ main > div:nth-child(even){
 float: right;
 /* background-color: black; */
 }
-main > div > div  {
-
+main > div   {
+border: 1px solid red;
 }
 #galleryBtn button{
 width: 88px;
@@ -78,8 +77,10 @@ color: white;
 font-size: 1rem;
 cursor: pointer;
 }
-@media only screen and (min-width:580px){
-    
+@media only screen and (min-width:813px){
+    main >div {
+display: inline-block;
+    }
 }
 @media only screen and (max-width:580px){
     main  {
@@ -87,12 +88,16 @@ cursor: pointer;
     
     }
     main >div {
-width: 100vw;
-display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 95vw;
+        /* display: flex; */
+        /* flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; */
+    
         text-align: center;
         margin-bottom: 50px;
+    }
+    main div div img {
+        width: 95vw;
     }
 }
