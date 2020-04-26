@@ -23,6 +23,9 @@ color: white;
 font-size: 1rem;
 cursor: pointer;
 }
+body{
+    background-color: rgb(235, 221, 195);
+}
 #homeContent button:focus{
     box-shadow: 0 0 5px rgb(46, 46, 46);
     outline: none;
@@ -41,15 +44,16 @@ cursor: pointer;
     padding: 0;
     margin: 0;
 }
-main >div {
-    display: flex;
-    flex-direction: row;
-    width: 50vw;
-    flex-wrap: wrap;
+body{
+    margin: 0px!important;
 }
-main > div {
-    /* display: inline-block; */
-} 
+main >div {
+    display: inline-flex;
+    flex-direction: row;    
+    width: 50vw;
+    /* flex-wrap: wrap; */
+}
+ 
 main div p{
     /* max-height: 230px; */
 }
@@ -77,27 +81,35 @@ color: white;
 font-size: 1rem;
 cursor: pointer;
 }
-@media only screen and (min-width:813px){
-    main >div {
-display: inline-block;
-    }
+header {
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: red;
 }
-@media only screen and (max-width:580px){
-    main  {
-        
+@media only screen and (min-width:813px){
+   
+}
+@media only screen and (max-width:1897px){
+
+
+}
+@media only screen and (max-width:1897px){
+    main >div {
+        display: inline-block;
+            }
     
+}
+@media only screen and (max-width:816px){
+    main  div img{
+        max-width: 310px;
     }
     main >div {
-        width: 95vw;
-        /* display: flex; */
-        /* flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start; */
-    
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         margin-bottom: 50px;
-    }
-    main div div img {
-        width: 95vw;
     }
 }

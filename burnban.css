@@ -1,0 +1,24 @@
+#mapContainer{
+    height: 60vh;
+    width: 80vw;
+    background-image: url('arkmap.png');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    margin-right: auto;
+margin-left: auto;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(235, 221, 195);
+
+}
+@media only screen and (max-width:816px){
+    #mapContainer{
+        height: 60vh;
+        width: 100vw;
+        background-size: contain;
+    }
+}
