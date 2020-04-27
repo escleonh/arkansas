@@ -1,0 +1,43 @@
+
+footer{
+   
+     
+}
+
+#footerMenu{
+    width: 100%;
+    background-color: rgb(4, 2, 22);
+    border: none;
+
+    padding-top: 10px;
+    margin: 0;
+    display: flex;      
+    justify-content: center;    
+    align-items: center; 
+    
+}
+.footernav a{
+    text-decoration: none;
+    color: white;
+   
+}
+.footernav li{
+list-style-type: none;
+margin: 12px;
+}
+#copyright{
+    background-color: rgb(4, 2, 22);
+    border: none;
+    outline: none;
+    padding-bottom: 10px;
+
+}
+#copyright small{
+    display: block;
+    text-align: center;
+    color: white;
+}
+#copyright a{
+    text-decoration: none;
+    color: white;
+}

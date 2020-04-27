@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="footer.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+         <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="volunteer.css">
+        <link rel="stylesheet" href="footer.css">
 
-</head>
-<body id="homebg">
-    <header>
-       <strong><small><a href="burnBans.html"> Current Burn Bans</a></small></strong>
-    </header>
+    </head>
+<body>
 
     <nav>
         <div id="left"></div>
@@ -70,16 +67,52 @@
 
         
     </nav>
+
     <main>
-    <div id="homeContent">
-        <div id="tagLine"></div>
-        <div id='btn'>
-        <a href="parks.html">View Parks</a>
-    </div>
-    </div>
+        <h1>Volunteer </h1>
+        <h3>Become a Volunteer</h3>
+        <div id="volunteerForm">
+            <form action="" method="">
+                <div>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+                
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+                </div>
 
-   
+                <div>
+                <label for="location">Full Address:</label>
+                <input type="text" name="location" id="location" placeholder="134 Main ST Russellville, AR" size="39" required>
+                </div>
 
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email"  required>
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age"placeholder="Age"  required>
+                    
+                </div>
+
+                <div>
+                    
+                <fieldset >
+                   <legend>Gender:</legend>
+                    <label  for="gender">Male</label>
+                    <input type="radio" name="gender" id="gender" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="gemn/er" value="female">
+                </fieldset> <br>
+                
+                
+                <label for="comments">Why do you want to become a volunteer?</label><br>
+                <textarea name="comments" id="comments" cols="60" rows="10" placeholder="Comments"></textarea>
+            </div>
+            <div id='formBtn' >
+            <input type="submit" value="Submit">
+        </div>
+            </form>
+        </div>
     </main>
     <footer>
         <div id="footerMenu">
@@ -115,6 +148,6 @@
             <small><a href="https://github.com/escleonh">&copy;Hermenegildo Escalante</a></small>
     </div>
     </footer>
-    
+   
 </body>
 </html>

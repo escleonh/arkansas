@@ -4,16 +4,31 @@
     height: 198px;
     
 }
-#historyContainer a button{
+main{
+    position: relative;
+    min-height: 73vh;
+    margin-top: 50px;
+
+}
+#historyContainer #btn {
     width: 220px;
 height: 40px;
 border-radius: 20px;
 background-color: rgb(184, 12, 12);
 border: 1px solid #393939;
-box-shadow: 6,6,6;
 color: white;
 font-size: 1rem;
 cursor: pointer;
+
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+#btn a{
+    text-decoration: none;
+    color: white;
 }
 #historyContainer{
     display: flex;
@@ -23,6 +38,7 @@ cursor: pointer;
     width: 80vw;
     margin-right: auto;
     margin-left: auto;
+    
 }
 h2{
     text-align: center;
@@ -51,7 +67,7 @@ body{
     justify-content: center;
     width: 70vw;
     flex-wrap: wrap;
-    
+    padding-bottom: 20rem; 
 }
 #governorsContainer div{
     width: 250px;

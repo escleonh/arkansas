@@ -4,8 +4,65 @@ svg{
     margin-right: auto;
     margin-left: auto;
 }
+main{
+    margin-top: 50px;
+
+}
+#burnBanForm{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-height: 40vh;
+    margin-top: 30px;
+    
+}
+
+input{
+    height: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+label {
+    display: inline-block;
+   
+  }​
+
+textarea{
+    border: none;
+}
+input[type="checkbox"]{
+    padding-top: 5px;
+}
+input{
+    /* width: 100%; */
+    box-sizing: border-box;
+padding-left: 10px;
+    border: none;
+    border-radius: 3px;
+    
+}
+input:focus{
+    outline: rgb(2, 3, 27);
+}
+input[type='submit'] {
+    width: 100px;
+height: 28px;
+border-radius: 20px;
+background-color: rgb(13, 9, 44);
+border: 1px solid #535353;
+box-shadow: 6,6,6;
+color: white;
+cursor: pointer;
+
+}
+#formBtn{
+    margin-top: 10px;
+    text-align: center;
+}
 #armap{
     width: 80vw;
+    height: 80vh;
     margin-right: auto;
     margin-left: auto;
 }
@@ -14,7 +71,7 @@ h1{
 }
 body{
     background-color: rgb(235, 221, 195);
-
+    margin: 0;
 }
 hr{
     border: 2px solid rgba(0, 0, 0, 0.548)
@@ -28,5 +85,25 @@ a:hover path {
         height: 60vh;
         width: 100vw;
         background-size: contain;
+    }
+    input[type='text']{
+        width:100%;
+        height: 35px;
+       
+
+    }
+    input[type='email']{
+        width:100%;
+        height: 35px;
+    }
+    #burnBanForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    form {
+      width: 95%;
+      margin-right: auto;
+      margin-left: auto;
     }
 }

@@ -1,4 +1,7 @@
-
+main{
+    position: relative;
+    min-height: 73vh;
+}
 #tagLine{
     background-image: url(tagline.png);
     width: 238px;
@@ -11,8 +14,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2.5rem; 
 }
-#homeContent button{
+#homeContent #btn{
 width: 220px;
 height: 40px;
 border-radius: 20px;
@@ -22,12 +26,20 @@ box-shadow: 6,6,6;
 color: white;
 font-size: 1rem;
 cursor: pointer;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
-#homeContent button:focus{
+#btn a{
+text-decoration: none;
+color: white;
+}
+#homeContent #btn:focus{
     box-shadow: 0 0 5px rgb(46, 46, 46);
     outline: none;
 }
-#homeContent button:hover{
+#homeContent #btn:hover{
     box-shadow: 0 0 3px rgb(5, 36, 6);
 
 }
@@ -40,6 +52,7 @@ cursor: pointer;
     min-height: 100vh;
     padding: 0;
     margin: 0;
+   
 }
 
 header {

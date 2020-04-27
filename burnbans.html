@@ -6,6 +6,8 @@
     <title>Document</title>
      <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="burnban.css">
+    <link rel="stylesheet" href="footer.css">
+
 </head>
 <body>
    
@@ -18,9 +20,15 @@
             <li>
                 <a href="parks.html">PARKS</a>
             </li>
+            <li>
+                <a href="volunteer.html">VOLUNTEER</a>
+            </li>
             <li id="arLogo" >
                 <a href="index.html"><img src="arlogoblack.png" alt="Arkansas Logo" width="135" height="75"></a>
                 
+            </li>
+            <li>
+                <a href="burnBans.html">BURN BANS</a>
             </li>
             <li>
                 <a href="history.html">HISTORY</a>
@@ -42,6 +50,12 @@
                     <a href="parks.html">PARKS</a>
                 </li>
                 <li>
+                    <a href="volunteer.html">VOLUNTEER</a>
+                </li>
+                <li>
+                    <a href="burnBans.html">BURN BANS</a>
+                </li>
+                <li>
                     <a href="history.html">HISTORY</a>
                 </li>
                 <li>
@@ -54,7 +68,6 @@
         
     </nav>
     <main>
-        <hr>
         <h1>Burn Bans  </h1>
         <div id="armap">
             <svg xmlns="http://www.w3.org/2000/svg" width="514.107" height="462.638" viewBox="0 0 514.107 462.638">
@@ -138,10 +151,85 @@
               </svg>
               
         </div>
+        <h1>Report a Planned Burn</h1>
+        <div id="burnBanForm">
+            <form action="" method="">
+                <div>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+                
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+                </div>
 
+                <div >
+                <label for="location">Location:</label>
+                <input type="text" name="location" id="location" placeholder="134 Main ST Russellville, AR" size="50" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email" size="40" required>
+                    </div>
+
+            <div>
+                <label for="date">Date of Burn</label>
+                <input type="date" name="date" id="date">
+                
+                
+               
+            </div>
+            <div id='timeInput'>
+                <label for="time">Time of Burn</label>
+                <input type="time" name="time" id="time">
+            </div>
+           
+            
+            <div id='formBtn' >
+                <div> <label for="terms">Terms & Condtions</label>
+                    <input type="checkbox" name="terms" id="terms" required>
+                </div>
+            <input type="submit" value="Submit">
+        </div>
+            </form>
+        </div>
         
 
+
+
     </main>
-    <footer></footer>
+    <footer>
+        <div id="footerMenu">
+            <a href="index.html"><img src="arkansasLogo.png" alt="Arkansas Logo" width="135" height="75"></a>
+
+        <ul class="footernav">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="parks.html">Parks</a>
+            </li>
+            <li>
+                <a href="history.html">History</a>
+            </li>
+        </ul>
+
+            <ul class="footernav">
+            
+            <li>
+                <a href="events.html">Events</a>
+            </li>
+            <li>
+                <a href="burnBans.html">Burn Bans</a>
+                
+            </li>
+            <li>
+                <a href="volunteer.html">Volunteers</a>
+            </li>
+        </ul>
+        </div>
+        <div id='copyright'>
+            <small><a href="https://github.com/escleonh">&copy;Hermenegildo Escalante</a></small>
+    </div>
+    </footer>
 </body>
 </html>
