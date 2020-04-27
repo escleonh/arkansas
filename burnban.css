@@ -60,14 +60,22 @@ cursor: pointer;
     margin-top: 10px;
     text-align: center;
 }
+
 #armap{
     width: 80vw;
     height: 80vh;
     margin-right: auto;
     margin-left: auto;
 }
-h1{
+h1, h5{
     text-align: center;
+    
+
+}
+h5 > a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
 }
 body{
     background-color: rgb(235, 221, 195);

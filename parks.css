@@ -37,25 +37,29 @@ main p{
 
 
 .learnMoreBtn  {
-display: table-cell;
-vertical-align: middle;
+
 width:     100px;
 height: 28px;
 border-radius: 20px;
 background-color: rgb(13, 9, 44);
 border: 1px solid #535353;
 color: white;
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 text-decoration: none;
 text-align: center;
 
 
 }
+
 .learnMoreBtn a{
     text-decoration: none;
     color: white;
     cursor: pointer;
-
+   
+   
 }
 header {
     text-align: center;
@@ -118,6 +122,11 @@ hr{
     }
     main{
         width: 100vw;
+
+    }
+    .buttonContainer{
+       display: flex;
+       justify-content: center;
     }
 }
 

@@ -22,7 +22,6 @@ height: 40px;
 border-radius: 20px;
 background-color: rgb(26, 59, 2);
 border: 1px solid #393939;
-box-shadow: 6,6,6;
 color: white;
 font-size: 1rem;
 cursor: pointer;
@@ -34,6 +33,8 @@ justify-content: center;
 #btn a{
 text-decoration: none;
 color: white;
+margin: 0;
+
 }
 #homeContent #btn:focus{
     box-shadow: 0 0 5px rgb(46, 46, 46);
