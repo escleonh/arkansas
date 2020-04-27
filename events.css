@@ -92,6 +92,7 @@ header a{
     hr{
         border: 2px solid rgba(0, 0, 0, 0.548)
     }
+    a{margin: 0;}
     
 }
 @media only screen and (min-width:816px){
