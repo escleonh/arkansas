@@ -14,9 +14,15 @@ nav ul{
 nav ul li{
     display: inline-block;
 }
+#mainNav a{
+    text-decoration: none;
+    color: rgb(15, 39, 12)!important;
+    font-weight: bold;
+}
 nav ul a{
     text-decoration: none;
-    color: black!important;
+    color: rgb(3, 9, 36)!important;
+    font-weight: bold;
 }
 nav #mainNav li:not(:nth-of-type(3)){
     margin-top: 25px;

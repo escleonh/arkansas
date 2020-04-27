@@ -24,16 +24,142 @@ cursor: pointer;
     margin-right: auto;
     margin-left: auto;
 }
-h3{
+h2{
     text-align: center;
 }
 header {
     text-align: center;
     margin-bottom: 10px;
-    background-color: red;
+    background-color: rgb(13, 9, 44);
+}
+header a{
+   text-decoration: none;
+   color: white;
+}
+button:focus{
+    box-shadow: 0 0 5px rgb(46, 46, 46);
+    outline: none;
 }
 body{
     margin: 0;
     background-color: rgb(235, 221, 195);
 
+}
+
+#governorsContainer{
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    flex-wrap: wrap;
+    
+}
+#governorsContainer div{
+    width: 250px;
+    text-align: center;
+}
+#governorsWrapper{
+    width: 70vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Hutchinson{
+    background-image: url(asah.jpeg);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:60%;
+    width: 130px!important;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#Beebe{
+    background-image: url(mikebeebe.jpg);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:60%;
+    width: 130px!important;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Huckabee{
+    background-image: url(huckabee.jpg);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:60%;
+    width: 130px!important;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Tucker{
+    background-image: url(jimt.jpg);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:60%;
+    width: 130px!important;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Clinton83{
+    background-image: url(billc83.jpg);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:60%;
+    width: 130px!important;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#White{
+    background-image: url(fwhite.jpg);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:60%;
+    width: 130px!important;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Clinton79{
+    background-image: url(billc79.jpg);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:60%;
+    width: 130px!important;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Purcell{
+    background-image: url(purcell.jpg);    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:60%;
+    width: 130px!important;
+    height: 130px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media only screen and (max-width:816px){
+hr{
+    border: 2px solid rgba(0, 0, 0, 0.548)
+
+}
+
+}
+@media only screen and (min-width:816px){
+    hr{
+        display: none;
+    }
 }
