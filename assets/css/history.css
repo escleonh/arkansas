@@ -1,5 +1,5 @@
 #arFlag{
-    background-image: url(arflag.png);
+    background-image: url(../images/arflag.png);
     width: 375px;
     height: 198px;
     
@@ -79,7 +79,7 @@ body{
     margin-left: auto;
 }
 #Hutchinson{
-    background-image: url(asah.jpeg);    
+    background-image: url(../images/asah.jpeg);    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ body{
 
 }
 #Beebe{
-    background-image: url(mikebeebe.jpg);    
+    background-image: url(../images/mikebeebe.jpg);    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -102,7 +102,7 @@ body{
     margin-left: auto;
 }
 #Huckabee{
-    background-image: url(huckabee.jpg);    
+    background-image: url(../images/huckabee.jpg);    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,7 +113,7 @@ body{
     margin-left: auto;
 }
 #Tucker{
-    background-image: url(jimt.jpg);    
+    background-image: url(../images/jimt.jpg);    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ body{
     margin-left: auto;
 }
 #Clinton83{
-    background-image: url(billc83.jpg);    
+    background-image: url(../images/billc83.jpg);    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ body{
     margin-left: auto;
 }
 #White{
-    background-image: url(fwhite.jpg);    
+    background-image: url(../images/fwhite.jpg);    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ body{
     margin-left: auto;
 }
 #Clinton79{
-    background-image: url(billc79.jpg);    
+    background-image: url(../images/billc79.jpg);    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ body{
     margin-left: auto;
 }
 #Purcell{
-    background-image: url(purcell.jpg);    
+    background-image: url(../images/purcell.jpg);    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

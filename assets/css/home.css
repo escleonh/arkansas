@@ -3,7 +3,7 @@ main{
     min-height: 73vh;
 }
 #tagLine{
-    background-image: url(tagline.png);
+    background-image: url(../images/tagline.png);
     width: 238px;
     height: 230px;
     background-size: fill;
@@ -46,7 +46,7 @@ margin: 0;
 }
 
 #homebg{
-    background-image: url(homebg.jpg);
+    background-image: url(../images/homebg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
