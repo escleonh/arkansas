@@ -40,6 +40,13 @@ justify-content: center;
     margin-left: auto;
     
 }
+#toTop a{
+    text-align: center;
+    display: block;
+    clear: right;
+    text-decoration: none;
+    color: black;
+}
 h2{
     text-align: center;
 }
@@ -67,7 +74,7 @@ body{
     justify-content: center;
     width: 70vw;
     flex-wrap: wrap;
-    padding-bottom: 20rem; 
+    padding-bottom: 4rem; 
 }
 #governorsContainer div{
     width: 250px;

@@ -3,6 +3,7 @@ svg{
     width: 80vw;
     margin-right: auto;
     margin-left: auto;
+    display: block;
 }
 main{
     margin-top: 50px;
@@ -63,7 +64,7 @@ cursor: pointer;
 
 #armap{
     width: 80vw;
-    height: 80vh;
+    margin-bottom: 10vh;
     margin-right: auto;
     margin-left: auto;
 }
@@ -101,6 +102,9 @@ table{
 #plannedBurnsTable{
     display: flex;
     justify-content: center;
+    margin-bottom: 10vh;
+
+    
 }
 body{
     background-color: rgb(235, 221, 195);

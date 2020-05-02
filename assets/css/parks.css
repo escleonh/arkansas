@@ -36,6 +36,8 @@ main p{
 }
 
 
+
+
 .learnMoreBtn  {
 
 width:     100px;
@@ -77,14 +79,30 @@ button:focus{
     box-shadow: 0 0 5px rgb(46, 46, 46);
     outline: none;
 }
-
+#toTop a{
+    text-align: center;
+    display: block;
+    clear: right;
+    text-decoration: none;
+    color: black;
+}
 hr{
     border: 2px solid rgba(0, 0, 0, 0.548)
 }
+.parkimg{
+    display: flex;
+    justify-content: center;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+ }
 @media only screen and (min-width:813px){
-    main > div:nth-child(even){
+    main > div:nth-of-type(even){
         float: right;
-       
+        }
+        main  h3{
+            text-align: center;
         }
 }
 @media only screen and (max-width:1897px){
@@ -111,10 +129,13 @@ hr{
         text-align: center;
         margin-bottom: 50px;
     }
+   h3{
+        margin-top: 0;
+    }
     .tableContainer{
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     hr{
         border: 2px solid rgba(0, 0, 0, 0.548)
@@ -124,10 +145,7 @@ hr{
         width: 100vw;
 
     }
-    .buttonContainer{
-       display: flex;
-       justify-content: center;
-    }
+    
 }
 
 @media only screen and (min-width:816px){
